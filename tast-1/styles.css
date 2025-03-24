@@ -8,13 +8,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+footer,
 header {
   background-color: #f4f7fa;
-  /* padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 200px;
-  padding-right: 200px; */
   padding: 50px;
+}
+
+header {
+  position: relative;
 }
 
 p {
@@ -30,6 +31,45 @@ section {
   content: "";
   clear: both;
   display: table;
+}
+
+.customer-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.customer-logo,
+.meet-all-customers-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-contact-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-contact-company {
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.footer-content {
+  float: right;
+  width: 60%;
+}
+
+.footer-content-text {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #7b7c7c;
+}
+
+.footer-space {
+  float: left;
+  width: 40%;
 }
 
 .icon {
@@ -50,14 +90,31 @@ section {
   letter-spacing: 0.5px;
 }
 
+.meet-all-customers-container {
+  margin-left: 10px;
+}
+
+.meet-all-customers-link {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
 .new-line {
   display: block;
+}
+
+.right-arrow {
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 5px;
 }
 
 .section-content {
   float: right;
   padding: 50px;
-  width: 50%;
+  width: 60%;
 }
 
 .section-content h2 {
@@ -68,16 +125,18 @@ section {
 
 .section-content p {
   margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 100;
+  color: #969696;
 }
 
 .section-image {
   float: left;
   text-align: right;
-  width: 50%;
+  width: 40%;
 }
 
-.stats-container {
-  padding-left: 50px;
+.stats-container-wrapper {
   float: right;
   width: 50%;
 }
@@ -103,13 +162,17 @@ section {
   margin-bottom: 5px;
 }
 
-.stats-item-text {
+.stats-item-text,
+.footer-contact-company {
   color: #717171;
 }
 
 .title-container {
-  float: left;
-  width: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title-container h2 {
@@ -118,6 +181,8 @@ section {
   margin-bottom: 3px;
 }
 
-.title-container h2 span {
+.title-container h2 span,
+.footer-contact-name,
+.meet-all-customers-link {
   color: #4caf4f;
 }
