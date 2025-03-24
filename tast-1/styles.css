@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer,
+header {
+  background-color: #f4f7fa;
+  padding: 50px;
+}
+
+header {
+  position: relative;
+}
+
+p {
+  font-size: 14px;
+  color: #56575c;
+}
+
+section {
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.customer-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.customer-logo,
+.meet-all-customers-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-contact-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-contact-company {
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.footer-content {
+  float: right;
+  width: 60%;
+}
+
+.footer-content-text {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #7b7c7c;
+}
+
+.footer-space {
+  float: left;
+  width: 40%;
+}
+
+.icon {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.learn-more-button {
+  padding: 10px 20px;
+  background-color: #4caf4f;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.meet-all-customers-container {
+  margin-left: 10px;
+}
+
+.meet-all-customers-link {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.new-line {
+  display: block;
+}
+
+.right-arrow {
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.section-content {
+  float: right;
+  padding: 50px;
+  width: 60%;
+}
+
+.section-content h2 {
+  color: #4d4d4d;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.section-content p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 100;
+  color: #969696;
+}
+
+.section-image {
+  float: left;
+  text-align: right;
+  width: 40%;
+}
+
+.stats-container-wrapper {
+  float: right;
+  width: 50%;
+}
+
+.stats-container + .stats-container {
+  margin-top: 20px;
+}
+
+.stats-item {
+  width: 40%;
+  float: left;
+}
+
+.stats-item-content {
+  float: left;
+  padding: 5px;
+}
+
+.stats-item-number {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stats-item-text,
+.footer-contact-company {
+  color: #717171;
+}
+
+.title-container {
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-container h2 {
+  color: #4d4d4d;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.title-container h2 span,
+.footer-contact-name,
+.meet-all-customers-link {
+  color: #4caf4f;
+}
